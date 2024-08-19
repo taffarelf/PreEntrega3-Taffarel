@@ -51,6 +51,16 @@ if (indumentaria.includes(Indumentaria)){
     console.log(`No encontramos ${busqueda} en la lista de productos disponibles.`)
 }
 
+let indumentaria2 = {
+    prenda1: 'Top', precio: 2500,
+    prenda2: 'Calza Corta', precio: 3500,
+    prenda3: 'Calza Larga', precio: 4500,
+    prenda4: 'Remera Oversize', precio: 5000,
+    prenda5: 'Remera Comun', precio: 4200,
+    prenda6: 'Conjunto Yogui', precio: 12500,
+}
+console.log(indumentaria2)
+
 function operacion(op){
     if (op == 'sumarA'){
         return (a,b) => a + b
