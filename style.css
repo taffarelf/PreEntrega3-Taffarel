@@ -1,6 +1,83 @@
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body{
     background-color: #A09ABC;
 }
 h1, h3{
+    font-family: "New Amsterdam";
     color: #D5CFE1;
+}
+
+.main-index{
+    img{
+        width: 30%;
+    }
+}
+.div1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "New Amsterdam";
+    color: #D5CFE1;
+}
+
+.bienvenida{
+    text-align: center;
+}
+.animate__animated.animate__pulse {
+    --animate-duration: 5s;
+}
+.cupos{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+}
+.card-body{
+    background-color: #B6A6CA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: #B6A6CA;
+    font-family: "New Amsterdam";
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.carrito-compras{
+    display: flex;
+    justify-content: center;
+    background-color: #B6A6CA;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+}
+.text-light{
+    color: black !important;
+    font-family: "New Amsterdam";
+}
+p{
+    color: black;
+    font-family: "New Amsterdam";
+}
+img, svg{
+    width: 45%;
+}
+.btn-outline-warning {
+    background-color: #A09ABC;
 }
